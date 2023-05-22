@@ -1,143 +1,162 @@
 html{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-   
+  margin: 0;
+  padding: 0;
+  width: 100%;
+ 
 }
 .container {
-    margin: 0;
-    padding: 0;
-    background: #5c14eb;
-    min-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #5c14eb;
+  min-width: 100%;
 }
 
 .header{
-    color: white;
+  color: white;
 }
 h1{
-  font-size: 52px;
+font-size: 52px;
 }
 .search-box{
-    padding: 10px;
-    background: #9176d9;
-    border-radius: 20px;
-    
+  padding: 10px;
+  background: #9176d9;
+  border-radius: 20px;
+  
 }
 .logo{
-  width: 200px;
+width: 200px;
 }
+
+.navbar.bg-light {
+background-color: #f3e2b3 !important;
+.form-control {
+  border-radius: 4.25rem;
+}
+}
+
+
 .livro{
-  width: 200px;
+width: 200px;
 }
+
+.liv{
+padding: 10px;
+width: 100%;
+max-width: 200px;
+min-width: 100px;
+}
+
+
 .livro-min{
-  width: 130px;
+width: 130px;
 }
 .card > a > img{
-  padding: 10px;
-  width: 200px;
+padding: 10px;
+width: 200px;
 }
 
 .card{
-  background: #9176d9;
+background: #9176d9;
 }
 
+
 .input-search-box{
-    border-radius: 10px;
+  border-radius: 10px;
 }
 .content{
-  background: #d6c8ff;
+background: #d6c8ff;
 }
 .content-left, .content-right{
-  padding: 10px;
+padding: 10px;
 }
 
 .tag-border-radius{
-   margin: 10px;
-   padding: 5px;
-   background: #b0a3d8;
-   border-radius: 20px;
-   max-width: 100%;
-  color: white;
+ margin: 10px;
+ padding: 5px;
+ background: #b0a3d8;
+ border-radius: 20px;
+ max-width: 100%;
+color: white;
 }
 .tag-division{
-  padding: 5px;
-  margin: 10px;
-  background: #490757;
-  max-width: 100%;
- color: white;
+padding: 5px;
+margin: 10px;
+background: #490757;
+max-width: 100%;
+color: white;
 }
 p{
-  text-align: justify;
+text-align: justify;
 }
 
 
 .button {
-  background-color: #9176d9;
-  font-size: 20px;
-  border-radius: 15px;
-  color: #2d0635;
-  border-radius: 2px solid #2d0635 ;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+background-color: #9176d9;
+font-size: 20px;
+border-radius: 15px;
+color: #2d0635;
+border-radius: 2px solid #2d0635 ;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
 }
 .buttom-personalizado{
-  background-color: #9176d9;
-  font-size: 24px;
-  border-radius: 15px;
-  color: #2d0635;
-  border-radius: 2px solid #2d0635 ;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+background-color: #9176d9;
+font-size: 24px;
+border-radius: 15px;
+color: #2d0635;
+border-radius: 2px solid #2d0635 ;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
 
 }
 .button:hover {
-  background-color: #611670; /* Green */
-  color: white;
+background-color: #611670; /* Green */
+color: white;
 }
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px) { 
- 
-  .logo{
-    width: 400px;
-  }
-  h1{
-    font-size: 60px;
-  }
-  .livro{
-    width: 250px;
-  }
-  .livro-min{
-    width: 200px;
-  }
- }
+
+.logo{
+  width: 400px;
+}
+h1{
+  font-size: 60px;
+}
+.livro{
+  width: 250px;
+}
+.livro-min{
+  width: 200px;
+}
+}
 
 
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
- }
+}
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
- }
+}
 
 /* Dispositivos large (desktops com 992px ou mais)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
- }
+}
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
 @media (min-width: 1200px) { 
-  
+
 }
 
 
